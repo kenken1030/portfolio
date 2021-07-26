@@ -1,0 +1,136 @@
+@media (max-width:1000px){
+.container{
+  width: 80%;
+  padding: 0 20px;
+  margin: auto;
+}
+
+}
+
+@media (max-width:600px){
+  .container{
+    width: 80%;
+    padding: 0 20px;
+    margin: auto;
+  }
+  
+  
+  
+  
+  header{
+  height: 10px;
+  position: static;
+    }
+  
+    .header-menu {
+      display:none;
+    }
+  
+    .openbtn{
+      display:block;
+    }
+  
+  
+  
+    .top-wrapper{
+      margin-top:70px;
+  
+    }
+    .top-img{
+      display:none;
+      }
+      .mobile-img{
+        display:block; 
+        width:100%;
+      }  
+
+.top-img{
+    display:none;
+    }
+
+
+    .pad-img{
+      display:none;
+    }
+
+    .mobile-img{
+      display:block; 
+      width:100%;
+    }  
+
+
+    .boxcontainer{
+    width:100%;
+    padding: 0 40px;
+    margin: 0 auto;
+   
+    }    
+    
+    .box > div {
+      width:100%;
+    }
+  
+    .boxcontainer .box:nth-child(odd) {
+      flex-direction:column-reverse;
+    }
+  
+    .boxcontainer .box:nth-child(even) {
+      flex-direction:column-reverse;
+    }
+  
+  
+  .pict img{
+    width:300px;
+  }
+  
+    .boxcontainer-info{
+      width:100%;
+      padding: 0 40px;
+      margin:0 auto; 
+   }
+  
+   .box-info > div {
+    width: 100%;
+  }
+  
+  .box-info{
+    flex-direction:column; 
+  }
+  
+  
+  .pict-info img{
+    width:300px;
+  }
+  
+  
+  .main-wrapper{
+    margin-top:20px;
+  }
+  
+  
+  .main-wrapper h3{
+    display:none;
+  }
+  
+  .main-wrapper p{
+    padding-bottom:25px;
+    font-size:10px;
+  }
+    .text h4{
+      font-size:25px;
+    }
+  
+  .text p{
+    font-size:10px;
+    padding-bottom:20px;
+  }
+  .shop-info h5{
+    font-size:25px;
+  
+  }
+  .text-info li{
+    font-size:10px;
+    line-height:30px;
+  }
+
+  }

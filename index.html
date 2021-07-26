@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title> Design labo KEN</title>
+    <meta name="description" content="Design labo KENのportfolioサイトです。  ">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a15b9dcb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <img src=img/logo.png>
+            <nav>
+            <ul class="menu-wrapper">
+                <li><a href="#about" class="cat-menu">about</a></li>
+                <li><a href="#Service" class="pen-menu">Service</a></li>
+                <li><a href="#works" class="pc-menu">works</a></li>
+                <li><a href="#contact" class="mail-menu">contact</a></li>
+            </ul>
+            </nav>
+            </div>
+        </div>
+        <!-- header-wrapper -->
+        <div class="content">
+            <h1>イメージを「かたち」に<br>変える。</h1>
+        </div>
+    </header>
+    <!-- globalnavigation -->
+    <nav id="g-navi">
+        <ul class=g-menu>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+    <!-- globalnavigation -->
+    <!-- hamburger -->
+    <div id="mobile-menu">
+        <div class="circle micon">
+            <span class="bar top"></span>
+            <span class="bar middle"></span>
+            <span class="bar bottom"></span>
+        </div>
+    </div>
+    <!-- hamburger -->
+
+
+    <!-- <div id="slide" class="slide">
+        <img src="img/cat-main.jpg" alt="猫の写真">
+        <img src="img/pc-main.jpg" alt="PCの写真">
+        <img src="img/stone-main.jpg" alt="石の写真">
+    </div> -->
+    <!-- slide -->
+
+    <!-- abot -->
+    <div class=main-wrapper>
+        <div class=about-wrapper>
+            <img class="icon" src="img/cat.png" alt="icon">
+            <h2 class="main-h2" id="about">About</h2><br>
+            <p class="main-p">大阪府で活動ホームページ作成専門のWEBデザイナーKenです。主にホームページ制作に関連する業務全般（Webデザイン、HTMLコーディング、レスポンシブ、WEBデザイン）を承っています。お客様とこれから作り出す物を親身に考え作り出す、そんなお手伝いができればと思っています。</p>
+        </div>
+        <!-- about -->
+        <!-- Service-->
+        <div class="Service-wrapper">
+            <img class="icon" src="img/pen.png" alt="icon">
+            <h2 class="main-h2" id="Service">Service</h2>
+            <br>
+            <div class="skill">
+
+                <div class="web-icon">
+                    <img class="icon " src="img/web.png" alt="web-icon">
+                    <h3>ホームページ制作</h3>
+
+                    <p>個人・企業ページのデザイン及びコーディングまでweb制作全般に対応いたします。 見る人がわかりやすく使う人が使いやすくそういったデザインを心がけています。 まずは一度お気軽にご相談ください。
+                    </p>
+                </div>
+
+                <div class="mobile-icon">
+                    <img class="icon" src="img/mobile.png" alt="mobile-icon">
+                    <h3>レスポンシブ</h3>
+
+                    <p>昨今Webサイトはアクセスの半数以上がスマートフォンからよるものになっています。 そうした中、PCサイトだけではなくタブレットやスマートフォンからのアクセスを 考慮した上でwebサイトを作成します。
+                    </p>
+                </div>
+                <div class="Wordpress-icon">
+                    <img class="icon" src="img/Wordpress.png" alt="Wordpress-icon">
+                    <h3>Wordpress</h3>
+
+                    <p>すでに作成済サイトのWordPress化、テーマを利用した制作も可能です。 更新が必要になるサイトの場合、Wordpressでの制作をご提案させていただきます。 お客様がご自身で管理画面から更新できるように設定致しますのでお気軽に ご相談ください。
+                    </p>
+                </div>
+            </div>
+            <!-- Service -->
+            <!-- Works -->
+            <div class=works-wrapper>
+                <img class="icon" src="img/pc.png" alt="icon">
+                <h2 class="main-h2" id="works">Works</h2>
+                <p>過去の制作物をご紹介します。</p>
+            </div>
+            <div class="work-contents">
+                <img src="img/company.png" alt="会社デモサイト">
+                <img src="img/cafe.png" alt="cafeデモサイト">
+
+            </div>
+            <!-- Work-contents -->
+        </div>
+        <!-- main-wrapper -->
+
+        <div class=contact-wrapper>
+            <h2 class="contact-h2" id="contact">Contact</h2>
+            <p>ホームページ制作やリニューアル、各種デザインのご依頼・ご相談はこちらからお問い合わせください。 業務委託をお考えの代理店・制作会社さまもお気軽にご連絡ください。</p>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSd3z9mLF_VrhgZcmSyFlY4XRoVpiP8Bikq5Gai_N9-gJnRWiA/formResponse" id="form" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                <div class="label">お名前<span>*</span></div>
+                <input id="name" name="entry.1305450843" placeholder="" required="required" type="text" />
+                <div class="label">メールアドレス<span>*</span></div>
+                <input id="email" name="entry.2112725717" placeholder="" required="required" type="text" />
+                <div class="label">メッセージ本文<span>*</span></div>
+                <textarea id="msg" name="entry.508452355" placeholder="" required="required"></textarea>
+                <div style="text-align:center">
+                    <input id="button" name="button" type="submit" value="送 信" />
+                </div>
+                <!-- text-align:center-->
+            </form>
+        </div>
+        <!-- contact-wrapper -->
+
+        <script type="text/javascript">
+            var submitted = false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='mail/mail.html';}"></iframe>
+
+</body>
+<!-- jQuery   -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script>
+    $(function() {
+        var page = 0;
+        var lastPage = parseInt($("#slide img").length - 1);
+
+        $("#slide img").css("display", "none");
+        $("#slide img").eq(page).css("display", "block");
+
+
+        function changePage() {
+            $("#slide img").fadeOut(1000);
+            $("#slide img").eq(page).fadeIn(1000);
+        };
+
+        var Timer;
+
+        function startTimer() {
+            Timer = setInterval(function() {
+                if (page === lastPage) {
+                    page = 0;
+                    changePage();
+                } else {
+                    page++;
+                    changePage();
+                };
+            }, 7000);
+        }
+
+        function stopTimer() {
+            clearInterval(Timer);
+        }
+
+        startTimer();
+    });
+
+    // スクロールして画像表示
+
+    $(function() {
+        ScrollReveal().reveal(".icon", {
+            duration: 1000
+        });
+        ScrollReveal().reveal(".main-h2", {
+            duration: 1000
+        });
+        ScrollReveal().reveal(".main-p", {
+            duration: 1000
+        });
+        ScrollReveal().reveal(".work-contents", {
+            duration: 1000
+        });
+        ScrollReveal().reveal(".contact-wrapper", {
+            duration: 1000
+        });
+    });
+    // mobile menu
+    $(function() {
+
+        $("#mobile-menu").click(function() {
+            $(".micon").toggleClass("close");
+            $("#g-navi").slideToggle(500);
+        });
+    });
+    $(function() {
+        $("#g-navi li a").click(function() {
+            $(".micon").toggleClass("close");
+            $("#g-navi").slideToggle(500);
+        });
+    });
+</script>
+
+</html>

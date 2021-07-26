@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>PHP-Partner</title>
+    <meta name="description" content="ITエンジニアの為の転職サービス">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a15b9dcb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+ </head>
+ <body>
+   <!-- headerメニュー -->
+ <header class="wrapper">
+   <div class="nav-bar">
+   <div class="logo">
+   <h1> PHP-Partner</h1>
+   <h2>ITエンジニアの為の転職サービス</h2>
+  </div><!-- "logo -->
+   <nav>
+<ul class="header-menu">
+<li><a href="#">TOP</a></li>
+<li><a href="#">企業情報</a></li>
+<li><a href="#">サービス</a></li>
+<li><a href="#">最新情報</a></li>
+<li><a href="#">お問い合わせ</a></li>
+</ul>
+</nav>
+</div><!--nav-bar  -->
+</header> <!-- headerメニュー 終了-->
+
+<div class="mobile-header">
+  <h1 class=mobile-logo> PHP-Partner</h1>
+<div id="mobile-menu">
+<div class="circle icon">
+  <span class="bar top"></span>
+  <span class="bar middle"></span>
+  <span class="bar bottom"></span>
+  </div>   <!-- circle icon -->
+  </div><!-- mobile-menu -->
+<nav id="g-nav" >
+<ul class=g-menu>
+  <li><a href="#"><i class="fas fa-chevron-right"></i>TOP</a></li>
+  <li><a href="#"><i class="fas fa-chevron-right"></i>企業情報</a></li>
+  <li><a href="#"><i class="fas fa-chevron-right"></i>サービス</a></li>
+  <li><a href="#"><i class="fas fa-chevron-right"></i>最新情報</a></li>
+  <li><a href="#"><i class="fas fa-chevron-right"></i>お問い合わせ</a></li>
+</ul>
+</nav>
+</div><!-- mobile-header -->
+
+
+<!-- TOP画像 -->
+<div class="top-wrapper">
+<img src="img/top.png"alt="top-photo">
+<div class="image-box">
+<h3>はたらくヒトと未来をつなぐ。</h3>
+ <p>私たちは必要な人と企業をつなぎ<br>
+  より良い未来へのきっかけを創ります。</p>
+<!--image-box 終了 --></div>
+<!-- top-wrapper 終了--></div>
+
+<!-- 見出し -->
+<div class="heading-wrapper">
+<h4>業界に特化したプロフェッショナルにより<br>
+  実現する業界最高レベルの「質」を実現</h4>
+  <br>
+  <p class="maintext">求職者と企業。効率を重視し、数にこだわったマッチングを行うのではなく<br>双方を徹底的に深く理解することで本質的なマッチングは可能になります。</p>
+  <br>
+  <br>
+  <p class="subject">PHP-Partnerは業界に特化したプロフェッショナルにより、「質」に<br>
+    こだわった人材ソリューションを提供します。</p>
+</div>
+<!-- 見出し -->
+<!-- 事業紹介 -->
+<div class="contents-wrapper">
+<h4>事業紹介</h4>
+</div>
+<div class="contents-flex">
+  <div class="contents-container">
+<div class="contents-box">
+<img src="img/1.png"alt="content-photo">
+<h5>人材紹介事業</h5>
+</div><!--contents-box -->
+<p>求職者の皆様へ価値のある情報を提供しあなたのキャリアにとって
+  最適な選択肢のための、キャリアをご提案します。</p>
+</div><!-- contents-container -->
+<div class="contents-container box-img">
+<div class="contents-box ">
+  <img src="img/3.png"alt="content-photo" >
+  <h5>人材派遣</h5>
+</div><!--contents-box -->
+<p>弊社と雇用契約を結び、信頼できる企業（派遣先）でお仕事をしていただきます。 
+  業務の指示は派遣先の担当者より受け、あなたの「ありたい姿」に合わせた働き方を実現します。</p>
+</div><!-- contents-container -->
+<div class="contents-container">
+<div class="contents-box">
+  <img src="img/2.png" alt="content-photo">
+  <h5>社内開発</h5>
+</div><!-- contents-box -->
+<p>社内SEとして業務システムの変革
+  （要件定義、設計、開発、保守）をお任せします。</p>
+</div><!-- contents-container -->
+</div><!-- contents-flex -->
+</div><!--contents-wrapper  -->
+
+<!-- エントリー -->
+<!-- entry-wrapper -->
+<div class="entry-wrapper">
+<img src="img/4.png" alt="enty-photo">
+<div class="entry-button">
+  <a href="#">まずは気軽に相談してみる</a>
+</div> <!-- entry-button -->
+</div><!-- entry-wrapper -->
+
+<footer class="footer-wrapper">
+<div class="footer-box">
+<h1> PHP-Partner</h1>
+<p>株式会社PHP-Partner<br>
+  〒000-0000 東京都〇〇〇〇〇〇　
+  Tel 03-〇〇〇〇-〇〇〇〇　
+  Fax 03-〇〇〇〇-〇〇〇〇</p>
+</div>
+
+
+</footer>
+
+
+
+<!-- jQuery   -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script>
+$(function(){
+  $("#mobile-menu").click(function(){
+    $(".icon").toggleClass("close");
+    $("#g-nav").slideToggle(1000);
+  });
+});
+
+
+  </script>
+ </body>
+ </html>

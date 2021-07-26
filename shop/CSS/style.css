@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    margin:0px;          /* ページ全体のmargin */
+    padding:0px;         /* ページ全体のpadding */
+    text-align:center;   /* 下記のautoに未対応用のセンタリング */
+   }
+   a{
+    text-decoration: none;
+    }
+
+
+
+header {
+  
+  width:100%;
+  margin:auto 0;
+  background-color: rgb(255, 255, 255);
+  position :fixed;
+  top: 0px;
+  z-index: 999;
+  height: 140px;
+}
+
+.container{
+  width: 100%;
+  padding: 0 100px;
+  margin: auto;
+}
+
+.header-logo h1{
+  color:#7a6a55;
+text-align:center;
+font-family: 'Roboto Slab', serif;
+font-size:36px;
+font-weight: bold;
+margin-bottom: 0;
+}
+
+.header-logo h2{
+  color:#7a6a55;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  font-size:14px;
+  font-weight: bold;
+  margin-top: 0
+ 
+  }
+
+
+ .header-menu{
+  font-family: 'Roboto Slab', serif;
+ font-weight: bold;
+ text-align:center;
+ margin-top:30px;
+ transition:0.5;
+ }
+
+ .header-menu a{ 
+  line-height:10px;
+  padding:0 25px;
+  color:rgb(122, 106, 85);
+  
+ }
+
+ .header-menu a:hover {
+  background-color: rgba(187, 187, 187, 0.3);
+}
+
+.openbtn{
+  display:none;
+}
+
+
+
+.top-wrapper{
+  overflow:hidden;
+  
+}
+
+.top-img{
+display: block;
+}
+.mobile-img{
+  display:none; 
+}
+
+.pad-img{
+  display:none; 
+}
+
+
+.main-wrapper{
+  text-align: center;
+	display: block;
+}
+
+.main-wrapper h3{
+color:#7a6a55;
+font-family: 'Roboto Slab', serif;
+font-weight: bold;
+font-size:45px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.main-wrapper p{
+  font-family: 'Roboto Slab', serif;
+color:#000000;
+font-size:16px;
+margin-top:10px;
+text-align:left;
+display: inline-block;
+padding-bottom:40px;
+}
+
+.menu-wrapper{
+background-color:#f6f4f2;
+
+}
+
+.boxcontainer{
+  max-width:930px;
+  padding: 0 100px;
+  margin:auto;
+  
+}
+
+img {
+  vertical-align: bottom;
+  
+}
+.box {
+  display: flex;
+}
+.box > div {
+  width: 50%;
+}
+
+.pict img {
+ 
+  width:365px;
+  
+  height: auto;
+}
+.boxcontainer .box:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.text{
+  width:200px;
+}
+
+
+.text h4{
+  color:#7a6a55;
+  font-family: 'Roboto Slab', serif;
+font-weight: bold;
+font-size:35px;
+margin:30px 80px 10px 80px;
+}
+.text p{
+  text-align:left; 
+  display: inline-block;
+  white-space: wrap;
+  font-size:14px;
+  font-family: 'Roboto Slab', serif;
+  margin:10px 15px 10px 15px;
+}
+
+.shop-info h5{
+  color:#7a6a55;
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size:45px;
+  margin-top: 30px;
+}
+
+.boxcontainer-info{
+  width:80%;
+  padding: 0 100px;
+  margin: 0 auto;
+  
+}
+
+.pict-info.img {
+  vertical-align: bottom;
+  width:100%;
+  height: auto;
+}
+.box-info{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+.boxcontainer-info.box-info:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.shop-info h5{
+  margin-top:60px;
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.pict-info img{
+  max-width:320px;
+ height: auto;
+}
+
+
+.text-info li{
+  width:300px;
+  list-style: none;
+  text-align:left; 
+  line-height:50px; 
+  font-family: 'Roboto Slab', serif;
+  
+  border-bottom:1px solid #7a6a55;
+}
+
+footer{
+  margin-top:60px;
+  border-top:1px solid #7a6a55;
+  height:100px;
+}
+footer p{
+  margin-top:10px;
+  font-family: 'Roboto Slab', serif;
+  font-size:12px;
+}
+
+
