@@ -1,5 +1,5 @@
 
-@media(max-width:800px){
+@media(max-width:768px){
   header{
     display:none;
   }
@@ -20,8 +20,27 @@
     z-index:20;
 
   }
+.mobile-header{
+  display: block;
+  background-image: url(../img/top-cat.jpg);
+  width:100%;
+  height:600px;
+  background-position: center;
+  background-size:cover;
+}
+.mobile-child{
+  display: flex;
+  justify-content: space-between;
+}
 
-  
+.mobile-header img{
+  width:150px;
+  height: 100px;
+  margin:10px 10px 0;
+  object-fit: cover;
+}
+
+
   .circle{
     position: relative;
     width:30px;
@@ -69,9 +88,14 @@
     left:20%;
   }
 
-.header-wrapper{
-  display:none;
-}
+  .content{
+    max-width:350px;
+    margin: 20vh 10vw 0 auto;
+  }
+
+
+
+
 .skill{
 flex-direction: column;
 }
@@ -86,20 +110,36 @@ flex-direction: column;
 .Wordpress-icon{
 width:400px;
 }
-
-
 .work-contents img{
-  width:40%;
+width:80%;
+ 
 }
-}
-@media(max-width:500px){
-.dammy{
-  display:none;
-}
-.slide{
-  display:none;
 }
 
+
+@media(max-width:599px){
+
+  .mobile-header{
+  height:550px;
+
+ }
+
+  .mobile-header img{
+    width:120px;
+    height: 70px;
+    margin-left:10px;
+    object-fit: cover;
+}
+
+.content{
+  max-width:270px;
+  margin: 38vh auto;
+}
+
+  .content h1{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
 
 .web-icon{
    margin-bottom:50px;
@@ -118,10 +158,12 @@ width:400px;
 
 }
 .work-contents img{
-  margin:10px auto 50px;
-  width:80%;
- 
+width:80%;
 }
+.work-contents p{
+  margin: 1.4rem 0 4rem 0;
+}
+
 
 .company::after{
   margin-bottom:100px;

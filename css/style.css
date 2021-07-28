@@ -28,7 +28,7 @@ li {
 header{
     margin: 0 auto;
     max-width: 1380px;
-    height: 600px;
+    height: 625px;
     background-image: url(../img/top-cat.jpg);
     background-position: center;
     background-size: cover
@@ -82,6 +82,10 @@ header{
     text-align: center;
 }
 
+
+.mobile-header{
+    display: none;
+}
 
 
 /*mobile menu  */
@@ -166,31 +170,7 @@ header{
     opacity: 0.5;
 }
 
-
 /* #g-navi */
-
-
-/* slide */
-
-/* #slide {
-    display: none;
-    position: relative;
-    width: 100%;
-    max-width: 1380px;
-    margin: 0 auto;
-}
-
-#slide img {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-} */
-
-
-/* header */
-
-
 
 
 /* main */
@@ -284,31 +264,18 @@ header{
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-.work-contents {
+.work-contents{
     display: flex;
-    justify-content: space-around;
+justify-content: space-around;
+}
+.work-contents p{
+    text-align: center;
+    margin-top: 1.4rem;
 }
 
 .work-contents img {
-    width: 30%;
+    width: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.company::after {
-    content: "株式会社PHP 人材バンクデモサイト";
-    font-size: 1.4rem;
-    letter-spacing: .22em;
-    line-height: 2.2;
-    display: block;
-}
-
-.shop::after {
-    content: "MINON CAFE cafeデモサイト";
-    font-size: 1.4rem;
-    letter-spacing: .22em;
-    line-height: 2.2;
-    display: block;
-    padding-left: 15px;
 }
 
 .contact-wrapper {
