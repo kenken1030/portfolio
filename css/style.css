@@ -67,12 +67,12 @@ header{
 }
 
 .content{
-    width:370px;
+    width:450px;
     display: flex;
     justify-content: space-between;
     margin: 20vh 10vw 0 auto;
     color:#fff;
-    
+   
 }
 .content h1{
     font-family:  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -80,6 +80,7 @@ header{
     letter-spacing: .20em;
     text-indent: .20em;
     text-align: center;
+    
 }
 
 
