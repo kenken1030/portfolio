@@ -275,13 +275,13 @@ justify-content: space-around;
 }
 
 .work-contents img {
-    width: 50%;
+    width: 70%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .contact-wrapper {
     margin: 16rem auto;
-    width: 60%;
+    width: 100%;
 }
 
 .contact-wrapper p {
