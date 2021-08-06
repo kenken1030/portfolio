@@ -281,7 +281,8 @@ justify-content: space-around;
 
 .contact-wrapper {
     margin: 16rem auto;
-    width: 100%;
+    width: 600px;
+    
 }
 
 .contact-wrapper p {
